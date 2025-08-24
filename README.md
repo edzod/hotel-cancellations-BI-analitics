@@ -55,6 +55,13 @@ In addition to BI analytics:
 
 ---
 
+## Deliverables
+- **Presentation (Canva link):** [View online](https://www.canva.com/design/DAGoLbCoBHE/B2x_kNZeoBuIo2OW6BcrVQ/edit?utm_content=DAGoLbCoBHE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- **Report & slides:** see `/Presentations`  
+- **Tableau dashboards:** see `/assets`
+
+---
+
 ## Key Insights
 - Cancellations increase with long lead times and non-deposit bookings.  
 - Resort vs city hotels show different seasonality and ADR patterns.  
