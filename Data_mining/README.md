@@ -1,20 +1,9 @@
-# Data (Dimensions & Fact)
+# Data Mining Models
 
-This folder contains the **star schema CSV files** used for the BI project.
+This folder contains ML experiments applied to the cleaned hotel bookings dataset.
 
-- **Dimensions**
-  - `Dim_Agent.csv`
-  - `Dim_Customer.csv`
-  - `Dim_Date.csv`
-  - `Dim_Hotel.csv`
-  - `Dim_MarketSegment.csv`
-  - `Dim_Meal.csv`
-  - `Dim_Order_Status.csv`
-  - `Dim_RoomType.csv`
+- "logistic_regression.py" - cancellation prediction baseline.  
+- "clustering_k-means.py" - unsupervised clustering of customers.  
+- "decision_tree.py" - interpretable classification of cancellations.
 
-- **Fact table**
-  - `Fact_Booking.csv`
-
-Each file was created from the raw hotel bookings dataset and transformed via the ETL process.  
-They serve as the base for KPIs and Tableau dashboards.
-
+Each script demonstrates a different approach to exploring predictive insights beyond BI dashboards.
