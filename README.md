@@ -9,19 +9,19 @@ The project includes **data cleaning (ETL), star schema design, KPI suite, machi
 ---
 
 ## Repository Structure
-- `data/` → Star schema CSVs (dimensions & fact)
-- `etl/` → Python cleaning script & cleaned dataset
-- `ml/` → Logistic Regression, K-Means clustering, Decision Tree
-- `assets/` → Tableau packaged workbook (`.twbx`) + visuals
-- `docs/` → Written report & presentation
-- `README.md` → This file
+- "Dimentions/" - Star schema CSVs (dimensions & fact)
+- "cleaner/" - Python cleaning script & cleaned dataset
+- "Data_mining/" - Logistic Regression, K-Means clustering, Decision Tree
+- "assets/" - Tableau packaged workbook (`.twbx`) + visuals
+- "Presentations/" - Written report & presentation
+- "README.md" - This file
 
 ---
 
 ## Star Schema
-- **Fact table:** `Fact_Booking.csv`
-- **Dimensions:** `Dim_Agent`, `Dim_Customer`, `Dim_Date`, `Dim_Hotel`,  
-  `Dim_MarketSegment`, `Dim_Meal`, `Dim_Order_Status`, `Dim_RoomType`
+- **Fact table:** "Fact_Booking.csv"
+- **Dimensions:** "Dim_Agent", "Dim_Customer", "Dim_Date", "Dim_Hotel",  
+  "Dim_MarketSegment", "Dim_Meal", "Dim_Order_Status", "Dim_RoomType"
 
 ---
 
